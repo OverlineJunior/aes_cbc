@@ -1,0 +1,9 @@
+[package]
+name = "aes_cbc"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+cliclack = "0.3.6"
+rand = "0.9.2"
+soft-aes = "0.2.2"
