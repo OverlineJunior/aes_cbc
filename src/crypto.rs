@@ -1,6 +1,6 @@
 use soft_aes::aes::{aes_dec_cbc, aes_enc_cbc};
 
-pub const KEY_BYTES: usize = 16;
+pub const KEY_BYTES: usize = 32;
 const IV_BYTES: usize = 16;
 // ! Explicar motivação.
 const PADDING: Option<&str> = Some("PKCS7");
